@@ -1,0 +1,19 @@
+{
+  "name": "atwix/module-test-attribute",
+  "version": "1.0.0",
+  "description": "Creating Test Attribute",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog": "*",
+    "magento/module-eav": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Atwix\\TestAttribut\\": ""
+    }
+  }
+}
